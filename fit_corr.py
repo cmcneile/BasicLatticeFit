@@ -20,6 +20,9 @@ import matplotlib.pyplot as plt
 from lmfit import Parameters, minimize, report_fit
 
 # my modules
+import sys
+sys.path.append('src')
+
 import util
 import models
 
